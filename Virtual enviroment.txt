@@ -1,0 +1,32 @@
+shift + control + P (terminale)
+
+py -3 -m venv .venv (python3 linux e macOs)
+
+./.venv/Scripts/activate
+
+Se script disabilitati: (Avviare powershell come amministratore e poi: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine)
+
+--- Librerie da installare nella sandbox ---
+
+pip install pillow (libreria pillow)
+pip install numpy
+pil install matplotlib
+pip install PyYaml
+
+
+--- Area Jupyter ---
+
+Installare l'estensione jupyter
+
+pip install ipykernel
+
+ipython kernel install --user --name=.venv
+
+---------------------
+
+--- Area Machine Learning ---
+
+pip install pandas
+pip install sklearn
+
+----------------------
